@@ -15,9 +15,11 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 ### 1.原始数据稳定性差，组合观测值可以消除部分误差。
 ### 2.原始观测数据有强趋势性/自相关性，LSTM预测效果极差。
 ![image](/images/1.png)
+
 载波相位观测值原始数据预测效果图
 
 参考博客：[1]https://blog.csdn.net/youhuakongzhi/article/details/114552592
+
 [2]https://ask.csdn.net/questions/1084891
 
 
