@@ -9,3 +9,9 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 
 ## GF二次差序列
 说实话效果不错，根据有时候误差可以达到0.013m以内。
+
+## 为何不使用原始观测数据？
+对于此问题，我与导师进行了探讨，有两个原因：
+### 1.原始数据稳定性差，组合观测值可以消除部分误差。
+### 2.原始观测数据有强趋势性，LSTM预测效果极差。
+
