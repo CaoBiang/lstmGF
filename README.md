@@ -14,4 +14,4 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 对于此问题，我与导师进行了探讨，有两个原因：
 ### 1.原始数据稳定性差，组合观测值可以消除部分误差。
 ### 2.原始观测数据有强趋势性，LSTM预测效果极差。
-
+![image](/images/1.png)
