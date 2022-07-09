@@ -18,6 +18,8 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 
 ![image](/images/1.jpg)
 
+综合考虑，使用二次差值来进行预测，本次使用GF组合观测值二次差值。
+
 参考博客：
 
 [1]https://blog.csdn.net/youhuakongzhi/article/details/114552592
