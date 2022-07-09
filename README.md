@@ -37,4 +37,9 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 
 ![image](/images/4.jpg)
 
-## 效果预览
+## 预测效果
+使用GF二次差分序列进行预测，在时间步为15、样本数量为20时，预测50个历元：
+![image](/images/5.jpg)
+
+对应的残差为：
+![image](/images/6.jpg)
