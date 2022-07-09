@@ -16,7 +16,7 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 ### 2.原始观测数据有强趋势性/自相关性，LSTM预测效果极差。
 载波相位观测值原始数据预测效果图：
 
-![image](/images/1.png)
+![image](/images/1.jpg)
 
 参考博客：
 
@@ -24,5 +24,6 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 
 [2]https://ask.csdn.net/questions/1084891
 
-
-
+## 网络的设计
+网络由输入层、隐含层与输出层构成。在本次设计中，输入层神经元的个数l就是用来预测下一历元数据的前l个历元，也就是时间步。输入层的数据被输入到LSTM层之中，经过m个LSTM节点，在最后一个节点处输出m维的向量。LSTM层输出向量到n个节点的Dense层中，经过Dense层的维度变换，使LSTM层输出的向量在输出层变换为1维标量，也就是下一个历元的预测值。
+![image](/images/2.jpg)
