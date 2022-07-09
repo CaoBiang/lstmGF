@@ -28,4 +28,14 @@ Actually, this project is my undergraduate graduation project. Due to my learnin
 
 ## 网络的设计
 网络由输入层、隐含层与输出层构成。在本次设计中，输入层神经元的个数l就是用来预测下一历元数据的前l个历元，也就是时间步。输入层的数据被输入到LSTM层之中，经过m个LSTM节点，在最后一个节点处输出m维的向量。LSTM层输出向量到n个节点的Dense层中，经过Dense层的维度变换，使LSTM层输出的向量在输出层变换为1维标量，也就是下一个历元的预测值。
+
 ![image](/images/2.jpg)
+
+## 数据集的构建
+使用Pandas库进行对不同历元的数据依次进行滑动窗口分割。将i至i+l-1历元的数据组合为一个训练集的输入值，也就是一个样本，存放于二维矩阵train_X；同时i+l历元的数据作为这个训练集的目标值，存放于二维矩阵train_Y。同理，在训练好模型之后，若要使用模型进行预测，则只需要输入二维矩阵predict_X，经过运算后输出predict_Y。
+
+![image](/images/3.jpg)
+
+每次训练所使用的训练集train_X由很多个样本组成，构建成一个(feature_num,time_step,sample_size)的三维矩阵，才能成为LSTM层的输入。其中feature_num为特征数量，time_step为时间步，sample_size为样本数量，由于特征只有一种观测值，所以三维矩阵只有1页。
+
+![image](/images/4.jpg)
