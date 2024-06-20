@@ -1,4 +1,4 @@
-# AiGNSS
+# LSTM-GF
 Predict GNSS observation data through LSTM, including some combined observations, a variety of observations have been tried, and the best result is GF combined observations.
 
 通过LSTM长短期记忆网络对GNSS观测值进行预测，当然包括一些组合观测值，已尝试过多种观测值，效果最好的是GF组合观测值。
