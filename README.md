@@ -3,9 +3,9 @@ Predict GNSS observation data through LSTM, including some combined observations
 
 通过LSTM长短期记忆网络对GNSS观测值进行预测，当然包括一些组合观测值，已尝试过多种观测值，效果最好的是GF组合观测值。
 
-I graduated from China University of Mining and Technology, actually, this project is my undergraduate graduation project. Due to my learning ability problem, I spent several months on ML/DL and GNSS data processing, hoping to record it through GitHub. But let's be honest: this is an extremely shallow and naive experiment.
+Actually, this project is my undergraduate graduation project. Due to my learning ability problem, I spent several months on ML/DL and GNSS data processing, hoping to record it through GitHub. But let's be honest: this is an extremely shallow and naive experiment.
 
-我毕业于中国矿业大学，其实这个项目是我的本科毕业设计，由于自身学习能力问题，花费数月精力在学习ML/DL与GNSS数据处理上，希望通过GitHub进行记录留念。但说实话：这只是一个极其浅显且幼稚的实验。
+其实这个项目是我的本科毕业设计，由于自身学习能力问题，花费数月精力在学习ML/DL与GNSS数据处理上，希望通过GitHub进行记录留念。但说实话：这只是一个极其浅显且幼稚的实验。
 
 ## 为何不使用原始观测数据？
 对于此问题，我与导师进行了探讨，有两个原因：
